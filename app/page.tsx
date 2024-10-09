@@ -96,8 +96,18 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-8">See AIPex in Action</h2>
           <div className="aspect-w-16 aspect-h-9">
             <Image
-              src="https://source.unsplash.com/random/1600x900?chrome+extension"
-              alt="AIPex Demo"
+              src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SgLf-C8bbcfdZUzm0ICZ8A.gif"
+              alt="Chatgpt sidebar"
+              width={1600}
+              height={900}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+          <br/><br/>
+          <div className="aspect-w-16 aspect-h-9">
+            <Image
+              src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vHkVQfDKE5GOxHp-J6fE_w.gif"
+              alt="Open source Sider & Monica"
               width={1600}
               height={900}
               className="rounded-lg shadow-lg"
